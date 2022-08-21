@@ -1,26 +1,25 @@
 import java.util.Date;
 
 /**
- * Write a description of class Automobile here.
+ * Write a description of class Engin here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Automobile
+public class Engin extends Automobile
 {
     // instance variables - replace the example below with your own
     private int x;
-    public String ManufactureCompany;
+    public String Manufacture;
     public Date ManufactureDate;
     public String Model;
-    public Engin Engin;
-    public int plate_num;
-    private int body_serail_num;
+    public int Capacity;
+    public int Cylinders;
 
     /**
-     * Constructor for objects of class Automobile
+     * Constructor for objects of class Engin
      */
-    public Automobile()
+    public Engin()
     {
         // initialise instance variables
         x = 0;
